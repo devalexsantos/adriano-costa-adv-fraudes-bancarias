@@ -1,10 +1,10 @@
-import Teste from '@/components/layout/Teste'
+import Header from '@/components/layout/Header'
 import Image from 'next/image'
 
 export default function Home() {
   return (
-   <div>
-    <Teste />
-   </div>
+   <main className="m-auto">
+    <Header />
+   </main>
   )
 }
