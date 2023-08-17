@@ -1,5 +1,3 @@
-import WhatsAppButton from './WhatsAppButton'
-
 export default function AboutSession() {
   return (
     <div className="max-w-5xl m-auto flex flex-col justify-center items-center px-10 py-10">
