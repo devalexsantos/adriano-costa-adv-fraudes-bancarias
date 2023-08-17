@@ -5,8 +5,8 @@ export default function WhatsAppBox() {
       target="_blank"
       rel="noreferrer"
     >
-      <div className="flex gap-2 fixed bottom-20 right-4 justify-center items-center shadow-xl">
-        <div className="flex flex-1 flex-col max-w-[150px] bg-white rounded-xl p-2 text-zinc-800">
+      <div className="flex gap-2 fixed bottom-5 right-4 justify-center items-center">
+        <div className="flex flex-1 flex-col max-w-[150px] bg-white rounded-xl p-2 text-zinc-800 shadow-xl">
           <span className="font-bold text-sm">Olá, tudo bem?</span>
           <span className="text-xs">
             Clique aqui e agende uma consulta com o especialista
