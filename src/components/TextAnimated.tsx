@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 
 export default function TextAnimated() {
-  const rotatingWords = ['Boleto?', 'Cartão?', 'Empréstimo?', 'Financiamento?']
+  const rotatingWords = ['Boleto?', 'Cartão?', 'Empréstimo?']
   const [lastWordIndex, setLastWordIndex] = useState(0)
 
   useEffect(() => {
@@ -48,14 +48,6 @@ export default function TextAnimated() {
           {...fadeInOutAnimation}
         >
           Empréstimo?
-        </motion.span>
-      )}
-      {rotatingWord === 'Financiamento?' && (
-        <motion.span
-          className="text-5xl font-bold text-primary"
-          {...fadeInOutAnimation}
-        >
-          Leilão Falso?
         </motion.span>
       )}
     </div>
